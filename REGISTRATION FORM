@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>
+            REGISTRATION FORM
+        </title>
+    </head>
+    <body>
+        <H1 style="color: red; background: #000;">
+            <center><b>REGISTRATION FORM</b></center>
+        </H1>
+        <h2>
+            <center><u>______________________________________________________________________________________________________________</u></center>
+        </h2>
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseleave="this.start()">
+            <p style="color: rgb(22, 22, 23);font-size: 25px;">Please  fillup  the  details  very  carefully!  Don't  put  any  wrong  informations  in  the  given  fields.</p></center>
+        </marquee>
+     
+        <h2 style="background-color: black;color: white; padding: 15px; width: fit-content;">
+          Personal Details
+        </h2>
+
+        <form>
+            
+            <label>NAME <span style="color:red">*</span>
+            </label>
+            <input type="text" name="name" placeholder="Enter your name" required> 
+            &nbsp;&nbsp;
+                       <label> FATHER'S NAME <span style="color:red">*</span>
+                       </label>
+                       <input type="text" name="name" placeholder="Enter your father's name" required> 
+                       &nbsp;&nbsp;
+                       <label> MOTHER'S NAME <span style="color:red">*</span>
+                       </label>
+                       <input type="text" name="name" placeholder="Enter your mother's name" required> <br><br>
+            <label>MOBILE <span style="color:red">*</span>
+            </label>
+            <input type="number" name="mobile" placeholder="Enter mobile number" required> &nbsp;&nbsp;
+            <label>ALTERNATE MOBILE</label>
+            <input type="number" name="alt_mobile" placeholder="Enter alternate mobile number">
+            &nbsp;&nbsp;
+            <label>EMAIL ID</label>
+            <input type="email" name="email" placeholder="Enter email id"> <br><br>
+            <label>DATE OF BIRTH <span style="color:red">*</span>
+            </label>
+            <input type="date" name="date" placeholder="Enter DATE" required> &nbsp;&nbsp;
+            <label>ADHAR NUMBER <span style="color:red">*</span>
+            </label>
+            <input type="number" name="adhar" placeholder="Enter adhar number" required> &nbsp;&nbsp;
+            <label>GENDER</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="others">others
+            <br><br>
+            <label>RELIGION<span style="color:red">*</span></label>
+            <select name="rel" required>
+                <option disabled selected value="">--Select Your Religion--</option>
+                <option value="hindu">Hindu</option>
+                <option value="islam">Islam</option>
+                <option value="other">Others</option>
+            </select>&nbsp;&nbsp;
+            <label>CATEGORY<span style="color:red">*</span></label>
+            <select name="category" required>
+                <option disabled selected value="">--Select Your Caste--</option>
+                <option value="st">ST</option>
+                <option value="obc">OBC</option>
+                <option value="general">GENERAL</option>
+            </select>&nbsp;
+            &nbsp;
+            <label>BLOOD GROUP<span style="color:red">*</span></label>
+            <select name="blood" required>
+                <option disabled selected value="">Eg: B+,O+..etc</option>
+                <option value="b+">B+</option>
+                <option value="o+">O+</option>
+                <option value="others">others</option>
+            </select>&nbsp;&nbsp;
+            <label>IMAGE*</label>
+            <input type="file" name="image" placeholder="choose here" required>
+        
+        <br><br><br>
+        <h2 style="background-color: black;color: white; padding: 15px; width: fit-content;">
+            Address
+          </h2>
+        <label>VILLAGE <span style="color:brown">*</span></label>
+        <input type="text" name="village" placeholder="Enter village name" required>&nbsp;&nbsp;
+        <label>POST OFFICE <span style="color:brown">*</span></label>
+        <input type="text" name="postoffice" placeholder="Enter Post Office name" required>&nbsp;&nbsp;
+        <label>POLICE STATION <span style="color:brown">*</span></label>
+        <input type="text" name="policestation" placeholder="Enter Po;ice Station name" required><br><br>
+
+        
+        <label>DISTRICT <span style="color:brown">*</span></label>
+        <input type="text" name="district" placeholder="Enter District name" required>&nbsp;&nbsp;
+        <label>STATE <span style="color:brown">*</span></label>
+        <input type="text" name="state" placeholder="Enter Post Office name" required>&nbsp;&nbsp;
+        <label>PIN CODE <span style="color:brown">*</span></label>
+        <input type="number" name="pincode" placeholder="Enter pincode" required>
+
+        <br><br><br>
+        <h2 style="background-color: black;color: white; padding: 15px; width: fit-content;">
+            Education Qualification
+          </h2>
+        <h3 style="font-weight: 600;"> Higher Qualification</h3>
+        <label>DEGREE/COURSE <span style="color:brown">*</span></label>
+        <input type="text" name="degree" placeholder="Enter Degree" required>&nbsp;&nbsp;
+        <label>BOARD/UNIVERSITY <span style="color:brown">*</span></label>
+        <input type="text" name="board" placeholder="Enter board/university" required>&nbsp;&nbsp;
+        <label>PASSING YEAR <span style="color:brown">*</span></label>
+        <input type="number" name="passyear" placeholder="Enter passing year" required>&nbsp;&nbsp;
+        <label>PERCENTAGE/DIVISION <span style="color:brown">*</span></label>
+        <input type="number" name="division" placeholder="Enter percentage/division" required>
+        <br><br>
+        <label>Overall percentage in the qualifying UG course(Honours candidates should consider marks in honours subjects only)<span style="color:brown">*</span></label><br>
+        <input type="number" name="qmarks" placeholder="Enter overall percentage" required><br><br>
+        <label>Mathematics score in UG level<span style="color:brown">* </span></label>
+        <input type="number" name="ugmaths" placeholder="Enter Mathematics score in UG level" required>&nbsp;&nbsp;&nbsp;
+        <label>Aggregate in class 12<span style="color:brown">* </span></label>
+        <input type="number" name="12marks" placeholder="Enter Aggregate in class 12" required><br><br>
+        <label>Mathematics score in class 12<span style="color:brown">* </span></label>
+        <input type="number" name="12maths" placeholder="Enter Mathematics score in class 12" required>&nbsp;&nbsp;&nbsp;
+        <label>Aggregate in class 10<span style="color:brown">* </span></label>
+        <input type="number" name="10marks" placeholder="Enter Aggregate in class 10" required>&nbsp;&nbsp;&nbsp;
+        <label>Mathematics score in class 10<span style="color:brown">* </span></label>
+        <input type="number" name="10maths" placeholder="Enter Mathematics score in class 10" required><br><br><br>
+
+        <input type="submit" name="ok" value="submit">
+        <input type="reset" value="reset">
+        <br>
+        <br>
+
+
+        
+       
+        </form>
+    </body>
+</htmL>
