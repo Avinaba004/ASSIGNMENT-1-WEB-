@@ -1,2 +1,5 @@
 # ASSIGNMENT-1-WEB-
 1)ESSAY ON UNEMPLOYMENT 2) DATA TABLE 3)FORM 4)4 RESUME
+# ASSIGNMNENT-2-WEB-
+1)colourful structures using div
+2)website
